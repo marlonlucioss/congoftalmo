@@ -1,0 +1,24 @@
+{
+  "name": "congresso-oftalmologia",
+  "description": "site do congresso de oftalmologia",
+  "main": "index.html",
+  "authors": [
+    "marlon lucio"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "lightslider": "^1.1.5",
+    "bootstrap": "^3.3.6"
+  }
+}
