@@ -42,6 +42,36 @@ table {
   border-spacing: 0; }
 
 body {
-  background-color: green; }
+  background-color: #EBEBEC; }
+
+.main-content {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto; }
+
+.menu-content {
+  width: 100%;
+  display: inline-block; }
+  .menu-content .menu-list {
+    list-style: none;
+    display: flex; }
+    .menu-content .menu-list .menu-list-item {
+      color: #fff;
+      padding: 10px 20px;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f9edc+22,095084+100 */
+      background: #1f9edc;
+      /* Old browsers */
+      background: -moz-linear-gradient(top, #1f9edc 22%, #095084 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, #1f9edc 22%, #095084 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, #1f9edc 22%, #095084 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f9edc', endColorstr='#095084',GradientType=0 );
+      /* IE6-9 */ }
+      .menu-content .menu-list .menu-list-item:first-child {
+        border-radius: 0 0 0 10px; }
+      .menu-content .menu-list .menu-list-item:last-child {
+        border-radius: 0 0 10px 0; }
 
 /*# sourceMappingURL=styles.css.map */

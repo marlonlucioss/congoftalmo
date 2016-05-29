@@ -7,7 +7,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     watch: {
 			css: {
-				files: 'estilos/*.scss',
+				files: 'estilos/scss/*.scss',
 				tasks: ['sass','cssmin','concat']
 			}
     },
@@ -17,7 +17,7 @@ module.exports = function(grunt) {
   		},
   		dist: {
   			files: {
-  				'estilos/css/styles.css': 'estilos/styles.scss'
+          'estilos/css/styles.css': 'estilos/scss/styles.scss'
   			}
   		}
   	},
