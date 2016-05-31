@@ -41,9 +41,11 @@ module.exports = function(grunt) {
           'js/scripts.js': [
             bower_d+'jquery/dist/jquery.min.js',
             bower_d+'bootstrap/dist/js/bootstrap.min.js',
+            'js/main.js'
           ],
           'estilos/all.css': [
-            bower_d+'bootstrap/dist/css/bootstrap.min.css'
+            bower_d+'bootstrap/dist/css/bootstrap.min.css',
+            bower_d+'flexslider/flexslider.css'
           ]
         },
       }

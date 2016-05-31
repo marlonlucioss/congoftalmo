@@ -41,13 +41,39 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.congress-background, .menu-content .menu-list .menu-list-item a, .header-content .header-side.header-side-right .congress-bt, .header-content .header-side.header-side-right .newsletter-form-content form .newsletter-form-content-body .form-group .submit-bt, .footer {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f9edc+22,095084+100 */
+  background: #1f9edc;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #1f9edc 22%, #095084 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #1f9edc 22%, #095084 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #1f9edc 22%, #095084 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f9edc', endColorstr='#095084',GradientType=0 );
+  /* IE6-9 */ }
+
 body {
   background-color: #EBEBEC; }
+
+.container-fluid {
+  padding: 0; }
 
 .main-content {
   width: 100%;
   max-width: 980px;
   margin: 0 auto; }
+
+.percent100 {
+  width: 100%;
+  display: inline-block; }
+
+.ibdisplay {
+  display: inline-block; }
 
 .menu-content {
   width: 100%;
@@ -56,22 +82,54 @@ body {
     list-style: none;
     display: flex; }
     .menu-content .menu-list .menu-list-item {
-      color: #fff;
-      padding: 10px 20px;
-      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f9edc+22,095084+100 */
-      background: #1f9edc;
-      /* Old browsers */
-      background: -moz-linear-gradient(top, #1f9edc 22%, #095084 100%);
-      /* FF3.6-15 */
-      background: -webkit-linear-gradient(top, #1f9edc 22%, #095084 100%);
-      /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(to bottom, #1f9edc 22%, #095084 100%);
-      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f9edc', endColorstr='#095084',GradientType=0 );
-      /* IE6-9 */ }
-      .menu-content .menu-list .menu-list-item:first-child {
+      display: inline-flex; }
+      .menu-content .menu-list .menu-list-item a:hover {
+        background: #095084; }
+      .menu-content .menu-list .menu-list-item:first-child a {
         border-radius: 0 0 0 10px; }
-      .menu-content .menu-list .menu-list-item:last-child {
+      .menu-content .menu-list .menu-list-item:last-child a {
         border-radius: 0 0 10px 0; }
+
+.header-content .header-side.header-side-left .logo-content img {
+  width: 85%; }
+
+.header-content .header-side.header-side-right .newsletter-form-content form .newsletter-form-content-body .form-group label {
+  display: block; }
+
+.header-content .header-side.header-side-right .newsletter-form-content form .newsletter-form-content-body .form-group .form-control {
+  width: 80%;
+  max-width: 390px; }
+
+.gallery-content img {
+  width: 100%; }
+
+.gallery-content .carousel-control {
+  width: 5%; }
+
+.gallery-content .icon-prev, .gallery-content .icon-next {
+  font-size: 100px;
+  line-height: 30px; }
+
+.information-content {
+  background-color: white;
+  border-radius: 10px; }
+  .information-content .information-item .information-item-title {
+    padding: 44% 0;
+    text-align: center;
+    color: white;
+    font-size: 34px; }
+    .information-content .information-item .information-item-title.one {
+      background: url("../../images/info-bg-01.png") center center no-repeat; }
+    .information-content .information-item .information-item-title.two {
+      background: url("../../images/info-bg-02.png") center center no-repeat; }
+    .information-content .information-item .information-item-title.three {
+      background: url("../../images/info-bg-03.png") center center no-repeat;
+      padding: 36% 0; }
+    .information-content .information-item .information-item-title.four {
+      background: url("../../images/info-bg-04.png") center center no-repeat; }
+
+.footer {
+  min-height: 106px;
+  border-radius: 10px 10px 0 0; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,25 @@
+.information-content{
+  background-color: white;
+  border-radius: 10px;
+  .information-item{
+    .information-item-title{
+      padding: 44% 0;
+      text-align: center;
+      color: white;
+      font-size: 34px;
+      &.one{
+        background: url('../../images/info-bg-01.png') center center no-repeat;
+      }
+      &.two{
+        background: url('../../images/info-bg-02.png') center center no-repeat;
+      }
+      &.three{
+        background: url('../../images/info-bg-03.png') center center no-repeat;
+        padding: 36% 0;
+      }
+      &.four{
+        background: url('../../images/info-bg-04.png') center center no-repeat;
+      }
+    }
+  }
+}

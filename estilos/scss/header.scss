@@ -1,0 +1,45 @@
+.header-content{
+  .header-side{
+    &.header-side-left{
+      .logo-content{
+        img{
+          width: 85%;
+        }
+      }
+      .title-content{
+        .title-content-title{
+
+        }
+        .title-content-address{
+
+        }
+      }
+    }
+    &.header-side-right{
+      .congress-bt{
+        @extend .congress-background;
+      }
+      .newsletter-form-content{
+        form{
+          .newsletter-form-content-body{
+            .main-title{
+
+            }
+            .form-group{
+              label{
+                display: block;
+              }
+              .form-control{
+                width: 80%;
+                max-width: 390px;
+              }
+              .submit-bt{
+                @extend .congress-background;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -42,5 +42,10 @@ table {
 	border-spacing: 0;
 }
 
+@import 'mixins';
 @import 'general';
 @import 'menu';
+@import 'header';
+@import 'gallery';
+@import 'information';
+@import 'footer';
