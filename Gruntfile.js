@@ -44,8 +44,7 @@ module.exports = function(grunt) {
             'js/main.js'
           ],
           'estilos/all.css': [
-            bower_d+'bootstrap/dist/css/bootstrap.min.css',
-            bower_d+'flexslider/flexslider.css'
+            bower_d+'bootstrap/dist/css/bootstrap.min.css'
           ]
         },
       }

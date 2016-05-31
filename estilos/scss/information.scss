@@ -9,16 +9,20 @@
       font-size: 34px;
       &.one{
         background: url('../../images/info-bg-01.png') center center no-repeat;
+        background-size: 100%;
       }
       &.two{
         background: url('../../images/info-bg-02.png') center center no-repeat;
+        background-size: 100%;
       }
       &.three{
         background: url('../../images/info-bg-03.png') center center no-repeat;
         padding: 36% 0;
+        background-size: 100%;
       }
       &.four{
         background: url('../../images/info-bg-04.png') center center no-repeat;
+        background-size: 100%;
       }
     }
   }
