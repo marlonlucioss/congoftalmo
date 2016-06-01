@@ -1,0 +1,33 @@
+.hospedagem-content{
+  .hospedagem-content-body{
+    .hospedagem-content-body-title{
+
+    }
+    .hospedagem-content-body-side{
+      &.hospedagem-content-body-side-left{
+        .hospedagem-content-body-side-left-item{
+          img{
+            width: 100%;
+          }
+        }
+      }
+      &.hospedagem-content-body-side-right{
+        .hospedagem-content-body-side-right-text{
+          p{
+
+          }
+        }
+        .hospedagem-content-body-side-right-buttons{
+          .hospedagem-content-body-side-right-buttons-bt{
+            @extend .congress-background;
+            border: 0;
+            border-radius: 7px;
+          }
+        }
+        .hospedagem-content-body-side-right-footer{
+
+        }
+      }
+    }
+  }
+}

@@ -41,7 +41,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.congress-background, .menu-content .menu-list .menu-list-item a, .header-content .header-side.header-side-right .congress-bt, .header-content .header-side.header-side-right .newsletter-form-content form .newsletter-form-content-body .form-group .submit-bt, .footer {
+.congress-background, .menu-content .menu-list .menu-list-item a, .header-content .header-side.header-side-right .congress-bt, .header-content .header-side.header-side-right .newsletter-form-content form .newsletter-form-content-body .form-group .submit-bt, .footer, .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-buttons .hospedagem-content-body-side-right-buttons-bt {
   text-decoration: none;
   color: #fff;
   padding: 10px 20px;
@@ -75,6 +75,10 @@ body {
 .ibdisplay {
   display: inline-block; }
 
+.pagina-interna {
+  background-color: white;
+  border-radius: 10px; }
+
 .menu-content {
   width: 100%;
   display: inline-block; }
@@ -91,14 +95,35 @@ body {
         border-radius: 0 0 10px 0; }
 
 .header-content .header-side.header-side-left .logo-content img {
-  width: 85%; }
+  width: 100%; }
+
+.header-content .header-side.header-side-left .title-content {
+  margin-left: -38px; }
+  .header-content .header-side.header-side-left .title-content .title-content-body .title-content-title {
+    text-align: center;
+    font-size: 25px; }
+    .header-content .header-side.header-side-left .title-content .title-content-body .title-content-title .title-content-title-main {
+      font-size: 37px; }
+
+.header-content .header-side.header-side-right .congress-bt {
+  border: 0;
+  border-radius: 7px; }
 
 .header-content .header-side.header-side-right .newsletter-form-content form .newsletter-form-content-body .form-group label {
   display: block; }
 
 .header-content .header-side.header-side-right .newsletter-form-content form .newsletter-form-content-body .form-group .form-control {
-  width: 80%;
-  max-width: 390px; }
+  width: 100%;
+  max-width: 315px;
+  height: 18px; }
+
+.header-content .header-side.header-side-right .newsletter-form-content form .newsletter-form-content-body .form-group .submit-bt {
+  height: 18px;
+  padding: 0px 10px;
+  font-size: 14px;
+  border: 0;
+  margin-left: 6px;
+  border-radius: 5px; }
 
 .gallery-content img {
   width: 100%; }
@@ -153,5 +178,12 @@ body {
           margin-right: 0; }
   .footer .social-content {
     text-align: right; }
+
+.hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-left .hospedagem-content-body-side-left-item img {
+  width: 100%; }
+
+.hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-buttons .hospedagem-content-body-side-right-buttons-bt {
+  border: 0;
+  border-radius: 7px; }
 
 /*# sourceMappingURL=styles.css.map */
