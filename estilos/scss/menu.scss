@@ -9,6 +9,9 @@
       display: inline-flex;
       a{
         @extend .congress-background;
+        font-size: 14px;
+        font-family: gotham-bold,serif;
+        padding: 10px 14.6px;
         &:hover{
           background: rgb(9,80,132);
         }

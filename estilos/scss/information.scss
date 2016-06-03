@@ -6,7 +6,8 @@
       padding: 44% 0;
       text-align: center;
       color: white;
-      font-size: 34px;
+      font-size: 28px;
+      font-family: "gotham-black",serif;
       &.one{
         background: url('../../images/info-bg-01.png') center center no-repeat;
         background-size: 100%;
@@ -24,6 +25,13 @@
         background: url('../../images/info-bg-04.png') center center no-repeat;
         background-size: 100%;
       }
+    }
+    .information-desc{
+      font-family: gotham-book,serif;
+      font-size: 11px;
+      margin-top: 5px;
+      line-height: 15px;
+      padding-bottom: 20px;
     }
   }
 }

@@ -1,4 +1,5 @@
 .header-content{
+  margin-top: 11px;
   .header-side{
     &.header-side-left{
       .logo-content{
@@ -7,50 +8,84 @@
         }
       }
       .title-content{
-        margin-left: -38px;
+        margin-left: -24px;
         .title-content-body{
+          margin-top: 39px;
           .title-content-title{
             text-align: center;
-            font-size: 25px;
+            font-family: gotham-bold,serif;
+            font-size: 19px;
+            text-transform: uppercase;
+            line-height: 21px;
             .title-content-title-main{
-              font-size: 37px;
+              font-family: gotham-bold,serif;
+              font-size: 25px;
+              text-transform: uppercase;
+              margin-top: 13px;
+              display: inline-block;
             }
           }
-        }
-        .title-content-address{
-
+          .title-content-address{
+            font-family: gotham-bold,serif;
+            font-size: 11px;
+            text-transform: uppercase;
+            margin-top: 40px;
+          }
         }
       }
     }
     &.header-side-right{
+      padding-top: 12px;
       .congress-bt{
         @extend .congress-background;
         border: 0;
         border-radius: 7px;
+        font-family: gotham-bold,serif;
+        font-size: 14px;
       }
       .newsletter-form-content{
         form{
           .newsletter-form-content-body{
             .main-title{
-
+              font-family: gotham-bold,serif;
+              font-size: 19px;
+              text-transform: uppercase;
+              color: #005895;
+              margin-bottom: 7px;
+              margin-top: 15px;
             }
             .form-group{
+              padding-left: 3px;
               label{
                 display: block;
+                font-family: gotham-book,serif;
+                font-size: 11px;
+                color: #6D6E71;
+                text-transform: uppercase;
+                padding-left: 3px;
               }
               .form-control{
                 width: 100%;
-                max-width: 315px;
+                max-width: 301px;
                 height: 18px;
               }
               .submit-bt{
-                @extend .congress-background;
-                height: 18px;
-                padding: 0px 10px;
-                font-size: 14px;
+                text-decoration: none;
+                color: #fff;
+                background: #1f9edc;
+                background: -moz-linear-gradient(top,#1697D6 22%,#0C4067 100%);
+                background: -webkit-linear-gradient(top,#1697D6 22%,#0C4067 100%);
+                background: linear-gradient(to bottom,#1697D6 22%,#0C4067 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f9edc', endColorstr='#095084', GradientType=0 );
+                height: 19px;
+                padding: 0 7px;
                 border: 0;
-                margin-left: 6px;
+                margin-left: 8px;
                 border-radius: 5px;
+                font-family: gotham-black,serif;
+                font-size: 12px;
+                text-transform: uppercase;
+                padding-top: 2px;
               }
             }
           }

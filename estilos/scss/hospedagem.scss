@@ -1,20 +1,36 @@
 .hospedagem-content{
+  margin-top: 13px;
   .hospedagem-content-body{
+    padding: 50px 45px;
+    padding-right: 0;
     .hospedagem-content-body-title{
-
+      font-size: 30px;
+      font-family: gotham-black,serif;
+      text-transform: uppercase;
+      margin-bottom: 20px;
     }
     .hospedagem-content-body-side{
       &.hospedagem-content-body-side-left{
         .hospedagem-content-body-side-left-item{
+          margin: 0;
+          padding: 0;
           img{
             width: 100%;
+          }
+          &.col-lg-6{
+            padding: 3px;
+            margin-top: -10px;
           }
         }
       }
       &.hospedagem-content-body-side-right{
         .hospedagem-content-body-side-right-text{
+          margin-top: 150px;
           p{
-
+            font-size: 16px;
+            font-family: "gotham-book", serif;
+            margin-bottom: 20px;
+            line-height: 25px;
           }
         }
         .hospedagem-content-body-side-right-buttons{
@@ -22,10 +38,22 @@
             @extend .congress-background;
             border: 0;
             border-radius: 7px;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-family: "gotham-bold", serif;
+            padding: 10px 0px;
+            width: 310px;
+          }
+          img{
+            float: right;
+            margin-top: -1px;
           }
         }
         .hospedagem-content-body-side-right-footer{
-
+          font-family: gotham-book, serif;
+          font-size: 12px;
+          display: block;
+          margin-top: 30px;
         }
       }
     }

@@ -5,6 +5,9 @@
   min-height: 106px;
   border-radius: 10px 10px 0 0;
   .footer-list-content{
+    font-size: 12px;
+    font-family: "gotham-book",serif;
+    margin-top: 18px;
     .footer-item{
       margin-right: 30px;
       &:last-child{
@@ -32,5 +35,11 @@
   }
   .social-content{
     text-align: right;
+    margin-top: 27px;
+    img{
+      &:last-child{
+        margin-left: 20px;
+      }
+    }
   }
 }
