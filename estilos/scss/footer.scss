@@ -1,10 +1,12 @@
 .footer{
+  max-width: 960px;
+  margin: 0 auto;
   @extend .congress-background;
   min-height: 106px;
   border-radius: 10px 10px 0 0;
   .footer-list-content{
     .footer-item{
-      margin-right: 40px;
+      margin-right: 30px;
       &:last-child{
         margin-right: 0;
       }

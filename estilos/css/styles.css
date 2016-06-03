@@ -57,6 +57,18 @@ table {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f9edc', endColorstr='#095084',GradientType=0 );
   /* IE6-9 */ }
 
+html, body {
+  height: 100%;
+  margin: 0; }
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -106px; }
+
+.footer,
+.push {
+  height: 106px; }
+
 body {
   background-color: #EBEBEC; }
 
@@ -158,10 +170,12 @@ body {
       background-size: 100%; }
 
 .footer {
+  max-width: 960px;
+  margin: 0 auto;
   min-height: 106px;
   border-radius: 10px 10px 0 0; }
   .footer .footer-list-content .footer-item {
-    margin-right: 40px; }
+    margin-right: 30px; }
     .footer .footer-list-content .footer-item:last-child {
       margin-right: 0; }
     .footer .footer-list-content .footer-item .footer-item-list {

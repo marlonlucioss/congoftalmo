@@ -1,3 +1,17 @@
+html, body {
+height: 100%;
+margin: 0;
+}
+
+.wrapper {
+min-height: 100%;
+margin-bottom: -106px;
+}
+
+.footer,
+.push {
+height: 106px;
+}
 body{
   background-color: #EBEBEC;
 }
