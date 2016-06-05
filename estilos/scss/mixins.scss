@@ -8,4 +8,7 @@
   background: -webkit-linear-gradient(top,  rgba(31,158,220,1) 22%,rgba(9,80,132,1) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  rgba(31,158,220,1) 22%,rgba(9,80,132,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f9edc', endColorstr='#095084',GradientType=0 ); /* IE6-9 */
+  &:hover{
+    background: rgb(9,80,132);
+  }
 }

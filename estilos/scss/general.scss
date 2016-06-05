@@ -24,6 +24,7 @@ body{
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .percent100{
@@ -38,4 +39,9 @@ body{
 .pagina-interna{
   background-color: white;
   border-radius: 10px;
+}
+
+.inline-link{
+  color: #1b6d85;
+  text-decoration: underline;
 }

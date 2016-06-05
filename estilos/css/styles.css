@@ -53,7 +53,7 @@ table {
   font-family: "gotham-book";
   src: url("../fonts/gotham-book.ttf"); }
 
-.congress-background, .menu-content .menu-list .menu-list-item a, .header-content .header-side.header-side-right .congress-bt, .footer, .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-buttons .hospedagem-content-body-side-right-buttons-bt {
+.congress-background, .menu-content .menu-list .menu-list-item a, .header-content .header-side.header-side-right .congress-bt, .footer, .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-buttons .hospedagem-content-body-side-right-buttons-bt, .interna-content .interna-content-body .interna-content-body-article .signin-bt {
   text-decoration: none;
   color: #fff;
   padding: 10px 20px;
@@ -68,6 +68,8 @@ table {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f9edc', endColorstr='#095084',GradientType=0 );
   /* IE6-9 */ }
+  .congress-background:hover, .menu-content .menu-list .menu-list-item a:hover, .header-content .header-side.header-side-right .congress-bt:hover, .footer:hover, .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-buttons .hospedagem-content-body-side-right-buttons-bt:hover, .interna-content .interna-content-body .interna-content-body-article .signin-bt:hover {
+    background: #095084; }
 
 html, body {
   height: 100%;
@@ -90,7 +92,8 @@ body {
 .main-content {
   width: 100%;
   max-width: 980px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 20px; }
 
 .percent100 {
   width: 100%;
@@ -102,6 +105,10 @@ body {
 .pagina-interna {
   background-color: white;
   border-radius: 10px; }
+
+.inline-link {
+  color: #1b6d85;
+  text-decoration: underline; }
 
 .menu-content {
   width: 100%;
@@ -304,5 +311,47 @@ body {
       font-size: 12px;
       display: block;
       margin-top: 30px; }
+
+.interna-content {
+  margin-top: 13px; }
+  .interna-content .interna-content-body {
+    padding: 50px 45px; }
+    .interna-content .interna-content-body .interna-content-body-title {
+      font-size: 30px;
+      font-family: gotham-black,serif;
+      text-transform: uppercase;
+      margin-bottom: 20px; }
+    .interna-content .interna-content-body .interna-content-body-article p {
+      margin-bottom: 20px;
+      font-size: 14px;
+      line-height: 21px; }
+    .interna-content .interna-content-body .interna-content-body-article .signin-bt {
+      border: 0;
+      border-radius: 7px;
+      font-family: gotham-bold,serif;
+      font-size: 14px; }
+    .interna-content .interna-content-body .interna-content-body-article .informacoes-gerais-table tr td:first-child {
+      font-weight: bold; }
+    .interna-content .interna-content-body .interna-content-body-article .list {
+      margin-bottom: 20px; }
+      .interna-content .interna-content-body .interna-content-body-article .list .list-title {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 15px; }
+      .interna-content .interna-content-body .interna-content-body-article .list .list-subtitle {
+        margin-bottom: 15px;
+        font-size: 13px;
+        line-height: 20px; }
+        .interna-content .interna-content-body .interna-content-body-article .list .list-subtitle span {
+          font-weight: bold;
+          font-size: 14px;
+          text-transform: uppercase; }
+      .interna-content .interna-content-body .interna-content-body-article .list ul {
+        list-style: initial;
+        padding-left: 30px; }
+        .interna-content .interna-content-body .interna-content-body-article .list ul li {
+          font-size: 13px;
+          margin-bottom: 3px; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,62 @@
+.interna-content{
+  margin-top: 13px;
+  .interna-content-body{
+    padding: 50px 45px;
+    .interna-content-body-title{
+      font-size: 30px;
+      font-family: gotham-black,serif;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .interna-content-body-article{
+      p{
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 21px;
+      }
+      .signin-bt{
+        @extend .congress-background;
+        border: 0;
+        border-radius: 7px;
+        font-family: gotham-bold,serif;
+        font-size: 14px;
+      }
+      .informacoes-gerais-table{
+        tr{
+          td{
+            &:first-child{
+              font-weight: bold;
+            }
+          }
+        }
+      }
+      .list{
+        margin-bottom: 20px;
+        .list-title{
+          text-transform: uppercase;
+          margin-bottom: 10px;
+          font-weight: bold;
+          font-size: 15px;
+        }
+        .list-subtitle{
+          margin-bottom: 15px;
+          font-size: 13px;
+          line-height: 20px;
+          span{
+            font-weight: bold;
+            font-size: 14px;
+            text-transform: uppercase;
+          }
+        }
+        ul{
+          list-style: initial;
+          padding-left: 30px;
+          li{
+            font-size: 13px;
+            margin-bottom: 3px;
+          }
+        }
+      }
+    }
+  }
+}
