@@ -1,6 +1,11 @@
 .menu-content{
   width: 100%;
   display: inline-block;
+  background: none;
+  margin-bottom: 0;
+  .navbar-collapse{
+    padding: 0;
+  }
   .menu-list{
     list-style: none;
     display: flex;
@@ -11,9 +16,10 @@
         @extend .congress-background;
         font-size: 14px;
         font-family: gotham-bold,serif;
-        padding: 10px 14.6px;
+        padding: 10px 14.5px;
         &:hover{
           background: rgb(9,80,132);
+          color: white;
         }
       }
       &:first-child{
@@ -25,6 +31,35 @@
         a{
           border-radius: 0 0 10px 0;
         }
+      }
+    }
+  }
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+  background: #095084;
+  padding: 0;
+  border-radius: 0 0 7px 7px;
+  margin: 0;
+}
+
+.navbar-default .navbar-toggle{
+  background: white;
+}
+
+@media screen and (max-width: 768px) {
+  .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+    border-radius: 0;
+  }
+  .menu-content{
+    .navbar-collapse{
+    }
+    .menu-list{
+      display: block;
+      margin: 0;
+      .menu-list-item{
+        display: inline;
+        text-align: center;
       }
     }
   }

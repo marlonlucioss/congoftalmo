@@ -1,7 +1,18 @@
 .information-content{
   background-color: white;
   border-radius: 10px;
+  padding-top: 5px;
   .information-item{
+    a{
+      &:hover,&:active,&:visited,&:link{
+        text-decoration: none;
+      }
+      &:hover{
+        .information-desc{
+          opacity: 1;
+        }
+      }
+    }
     .information-item-title{
       padding: 44% 0;
       text-align: center;
@@ -18,7 +29,7 @@
       }
       &.three{
         background: url('../../images/info-bg-03.png') center center no-repeat;
-        padding: 36% 0;
+        padding: 37% 0;
         background-size: 100%;
       }
       &.four{
@@ -32,6 +43,53 @@
       margin-top: 5px;
       line-height: 15px;
       padding-bottom: 20px;
+      opacity: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 990px){
+  .information-content{
+    .information-item{
+      .information-item-title{
+        font-size: 20px;
+        &.one{
+          background-size: 100%;
+        }
+        &.two{
+          background-size: 100%;
+        }
+        &.three{
+          padding: 37% 0;
+          background-size: 100%;
+        }
+        &.four{
+          background-size: 100%;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .information-content{
+    .information-item{
+      .information-item-title{
+        &.one{
+          background-size: 70%;
+        }
+        &.two{
+          background-size: 70%;
+        }
+        &.three{
+          padding: 37% 0;
+          background-size: 70%;
+        }
+        &.four{
+          background-size: 70%;
+        }
+      }
     }
   }
 }

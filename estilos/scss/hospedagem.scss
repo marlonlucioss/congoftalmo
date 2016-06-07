@@ -20,10 +20,14 @@
           &.col-lg-6{
             padding: 3px;
             margin-top: -10px;
+            &.jampa{
+              margin-top: 5px;
+            }
           }
         }
       }
       &.hospedagem-content-body-side-right{
+        padding-right: 0;
         .hospedagem-content-body-side-right-text{
           margin-top: 150px;
           p{
@@ -34,6 +38,7 @@
           }
         }
         .hospedagem-content-body-side-right-buttons{
+          display: inline-block;
           .hospedagem-content-body-side-right-buttons-bt{
             @extend .congress-background;
             border: 0;
@@ -41,8 +46,9 @@
             font-size: 20px;
             text-transform: uppercase;
             font-family: "gotham-bold", serif;
-            padding: 10px 0px;
-            width: 310px;
+            padding: 10px;
+            float: left;
+            margin-right: 12px;
           }
           img{
             float: right;

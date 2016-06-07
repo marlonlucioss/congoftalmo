@@ -81,7 +81,7 @@ html, body {
 
 .footer,
 .push {
-  height: 106px; }
+  min-height: 106px; }
 
 body {
   background-color: #EBEBEC; }
@@ -112,7 +112,11 @@ body {
 
 .menu-content {
   width: 100%;
-  display: inline-block; }
+  display: inline-block;
+  background: none;
+  margin-bottom: 0; }
+  .menu-content .navbar-collapse {
+    padding: 0; }
   .menu-content .menu-list {
     list-style: none;
     display: flex; }
@@ -121,13 +125,33 @@ body {
       .menu-content .menu-list .menu-list-item a {
         font-size: 14px;
         font-family: gotham-bold,serif;
-        padding: 10px 14.6px; }
+        padding: 10px 14.5px; }
         .menu-content .menu-list .menu-list-item a:hover {
-          background: #095084; }
+          background: #095084;
+          color: white; }
       .menu-content .menu-list .menu-list-item:first-child a {
         border-radius: 0 0 0 10px; }
       .menu-content .menu-list .menu-list-item:last-child a {
         border-radius: 0 0 10px 0; }
+
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+  background: #095084;
+  padding: 0;
+  border-radius: 0 0 7px 7px;
+  margin: 0; }
+
+.navbar-default .navbar-toggle {
+  background: white; }
+
+@media screen and (max-width: 768px) {
+  .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    border-radius: 0; }
+  .menu-content .menu-list {
+    display: block;
+    margin: 0; }
+    .menu-content .menu-list .menu-list-item {
+      display: inline;
+      text-align: center; } }
 
 .header-content {
   margin-top: 11px; }
@@ -180,7 +204,8 @@ body {
       .header-content .header-side.header-side-right .newsletter-form-content form .newsletter-form-content-body .form-group .form-control {
         width: 100%;
         max-width: 301px;
-        height: 18px; }
+        height: 18px;
+        margin-bottom: 10px; }
       .header-content .header-side.header-side-right .newsletter-form-content form .newsletter-form-content-body .form-group .submit-bt {
         text-decoration: none;
         color: #fff;
@@ -212,7 +237,12 @@ body {
 
 .information-content {
   background-color: white;
-  border-radius: 10px; }
+  border-radius: 10px;
+  padding-top: 5px; }
+  .information-content .information-item a:hover, .information-content .information-item a:active, .information-content .information-item a:visited, .information-content .information-item a:link {
+    text-decoration: none; }
+  .information-content .information-item a:hover .information-desc {
+    opacity: 1; }
   .information-content .information-item .information-item-title {
     padding: 44% 0;
     text-align: center;
@@ -227,7 +257,7 @@ body {
       background-size: 100%; }
     .information-content .information-item .information-item-title.three {
       background: url("../../images/info-bg-03.png") center center no-repeat;
-      padding: 36% 0;
+      padding: 37% 0;
       background-size: 100%; }
     .information-content .information-item .information-item-title.four {
       background: url("../../images/info-bg-04.png") center center no-repeat;
@@ -237,7 +267,32 @@ body {
     font-size: 11px;
     margin-top: 5px;
     line-height: 15px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    opacity: 0; }
+
+@media screen and (max-width: 990px) {
+  .information-content .information-item .information-item-title {
+    font-size: 20px; }
+    .information-content .information-item .information-item-title.one {
+      background-size: 100%; }
+    .information-content .information-item .information-item-title.two {
+      background-size: 100%; }
+    .information-content .information-item .information-item-title.three {
+      padding: 37% 0;
+      background-size: 100%; }
+    .information-content .information-item .information-item-title.four {
+      background-size: 100%; } }
+
+@media screen and (max-width: 768px) {
+  .information-content .information-item .information-item-title.one {
+    background-size: 70%; }
+  .information-content .information-item .information-item-title.two {
+    background-size: 70%; }
+  .information-content .information-item .information-item-title.three {
+    padding: 37% 0;
+    background-size: 70%; }
+  .information-content .information-item .information-item-title.four {
+    background-size: 70%; } }
 
 .footer {
   max-width: 960px;
@@ -288,29 +343,36 @@ body {
       .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-left .hospedagem-content-body-side-left-item.col-lg-6 {
         padding: 3px;
         margin-top: -10px; }
-    .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-text {
-      margin-top: 150px; }
-      .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-text p {
-        font-size: 16px;
-        font-family: "gotham-book", serif;
-        margin-bottom: 20px;
-        line-height: 25px; }
-    .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-buttons .hospedagem-content-body-side-right-buttons-bt {
-      border: 0;
-      border-radius: 7px;
-      font-size: 20px;
-      text-transform: uppercase;
-      font-family: "gotham-bold", serif;
-      padding: 10px 0px;
-      width: 310px; }
-    .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-buttons img {
-      float: right;
-      margin-top: -1px; }
-    .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-footer {
-      font-family: gotham-book, serif;
-      font-size: 12px;
-      display: block;
-      margin-top: 30px; }
+        .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-left .hospedagem-content-body-side-left-item.col-lg-6.jampa {
+          margin-top: 5px; }
+    .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right {
+      padding-right: 0; }
+      .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-text {
+        margin-top: 150px; }
+        .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-text p {
+          font-size: 16px;
+          font-family: "gotham-book", serif;
+          margin-bottom: 20px;
+          line-height: 25px; }
+      .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-buttons {
+        display: inline-block; }
+        .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-buttons .hospedagem-content-body-side-right-buttons-bt {
+          border: 0;
+          border-radius: 7px;
+          font-size: 20px;
+          text-transform: uppercase;
+          font-family: "gotham-bold", serif;
+          padding: 10px;
+          float: left;
+          margin-right: 12px; }
+        .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-buttons img {
+          float: right;
+          margin-top: -1px; }
+      .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-footer {
+        font-family: gotham-book, serif;
+        font-size: 12px;
+        display: block;
+        margin-top: 30px; }
 
 .interna-content {
   margin-top: 13px; }
@@ -321,6 +383,9 @@ body {
       font-family: gotham-black,serif;
       text-transform: uppercase;
       margin-bottom: 20px; }
+    .interna-content .interna-content-body .interna-content-body-article.carta-content {
+      margin-bottom: 50px;
+      margin-top: 20px; }
     .interna-content .interna-content-body .interna-content-body-article p {
       margin-bottom: 20px;
       font-size: 14px;
