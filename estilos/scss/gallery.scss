@@ -3,6 +3,8 @@
   margin-bottom: 7px;
   img{
     width: 100%;
+    margin-top: -20%;
+    display: initial !important;
   }
   .carousel-control{
     width: 5%;
@@ -10,5 +12,8 @@
   .icon-prev,.icon-next{
     font-size: 100px;
     line-height: 30px;
+  }
+  .carousel-inner>.item{
+    max-height: 298px;
   }
 }

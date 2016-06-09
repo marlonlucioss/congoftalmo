@@ -228,12 +228,16 @@ body {
   margin-top: 12px;
   margin-bottom: 7px; }
   .gallery-content img {
-    width: 100%; }
+    width: 100%;
+    margin-top: -20%;
+    display: initial !important; }
   .gallery-content .carousel-control {
     width: 5%; }
   .gallery-content .icon-prev, .gallery-content .icon-next {
     font-size: 100px;
     line-height: 30px; }
+  .gallery-content .carousel-inner > .item {
+    max-height: 298px; }
 
 .information-content {
   background-color: white;
@@ -339,16 +343,16 @@ body {
       margin: 0;
       padding: 0; }
       .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-left .hospedagem-content-body-side-left-item img {
-        width: 100%; }
+        width: 100%;
+        border-radius: 7px; }
       .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-left .hospedagem-content-body-side-left-item.col-lg-6 {
-        padding: 3px;
-        margin-top: -10px; }
+        padding: 3px; }
         .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-left .hospedagem-content-body-side-left-item.col-lg-6.jampa {
           margin-top: 5px; }
     .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right {
       padding-right: 0; }
       .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-text {
-        margin-top: 150px; }
+        margin-top: 70px; }
         .hospedagem-content .hospedagem-content-body .hospedagem-content-body-side.hospedagem-content-body-side-right .hospedagem-content-body-side-right-text p {
           font-size: 16px;
           font-family: "gotham-book", serif;

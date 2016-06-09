@@ -1,9 +1,11 @@
 (function(){
   var app = {
-
+    init: function(){
+      $('.fancybox').fancybox();
+    }
   }
 
   $(document).ready(function(){
-    console.log("funciona");
+    app.init();
   });
 }())

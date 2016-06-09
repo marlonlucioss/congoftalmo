@@ -1,0 +1,14 @@
+{
+  "name": "jquery.fancybox.min",
+  "_cacheHeaders": {
+    "ETag": "W/\"3427e780-3d19\"",
+    "Last-Modified": "Tue, 23 Sep 1997 16:00:00 GMT",
+    "Content-Type": "application/x-javascript"
+  },
+  "_release": "e-tag:W/\"3427e78",
+  "main": "index.js",
+  "_source": "http://yandex.st/jquery/fancybox/1.3.4/jquery.fancybox.min.js",
+  "_target": "*",
+  "_originalSource": "http://yandex.st/jquery/fancybox/1.3.4/jquery.fancybox.min.js",
+  "_direct": true
+}

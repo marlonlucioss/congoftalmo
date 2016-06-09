@@ -6,10 +6,14 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     watch: {
-			css: {
-				files: 'estilos/scss/*.scss',
-				tasks: ['sass','cssmin','concat']
-			}
+        css: {
+            files: 'estilos/scss/*.scss',
+            tasks: ['sass','cssmin','concat']
+        },
+        scripts: {
+            files: 'js/main.js',
+            tasks: ['concat']
+        }
     },
     sass: {
   		options: {
@@ -38,14 +42,17 @@ module.exports = function(grunt) {
       },
       basic_and_extras: {
         files: {
-          'js/scripts.js': [
-            bower_d+'jquery/dist/jquery.min.js',
-            bower_d+'bootstrap/dist/js/bootstrap.min.js',
-            'js/main.js'
-          ],
-          'estilos/all.css': [
-            bower_d+'bootstrap/dist/css/bootstrap.min.css'
-          ]
+            'js/scripts.js': [
+                bower_d+'jquery/dist/jquery.min.js',
+                bower_d+'bootstrap/dist/js/bootstrap.min.js',
+                'libs/fancyBox/lib/jquery.mousewheel-3.0.6.pack.js',
+                'libs/fancyBox/source/jquery.fancybox.pack.js',
+                'js/main.js'
+            ],
+            'estilos/all.css': [
+                bower_d+'bootstrap/dist/css/bootstrap.min.css',
+                'libs/fancyBox/source/jquery.fancybox.css'
+            ]
         },
       }
     }
