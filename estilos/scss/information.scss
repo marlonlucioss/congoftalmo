@@ -18,19 +18,20 @@
       text-align: center;
       color: white;
       font-size: 28px;
-      font-family: "gotham-black",serif;
+      font-family: "swiss-black",serif;
       &.one{
         background: url('../../images/info-bg-01.png') center center no-repeat;
         background-size: 100%;
       }
       &.two{
         background: url('../../images/info-bg-02.png') center center no-repeat;
-        background-size: 100%;
+        padding: 37% 0;
+        background-size: 97%;
       }
       &.three{
         background: url('../../images/info-bg-03.png') center center no-repeat;
         padding: 37% 0;
-        background-size: 100%;
+        background-size: 97%;
       }
       &.four{
         background: url('../../images/info-bg-04.png') center center no-repeat;
@@ -39,11 +40,12 @@
     }
     .information-desc{
       font-family: gotham-book,serif;
-      font-size: 11px;
+      font-size: 14px;
       margin-top: 5px;
       line-height: 15px;
       padding-bottom: 20px;
       opacity: 0;
+      text-align: center;
     }
   }
 }
@@ -54,17 +56,17 @@
       .information-item-title{
         font-size: 20px;
         &.one{
-          background-size: 100%;
+          background-size: 95%;
         }
         &.two{
-          background-size: 100%;
+          background-size: 95%;
         }
         &.three{
           padding: 37% 0;
-          background-size: 100%;
+          background-size: 95%;
         }
         &.four{
-          background-size: 100%;
+          background-size: 95%;
         }
       }
     }

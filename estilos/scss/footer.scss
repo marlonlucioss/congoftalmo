@@ -2,7 +2,6 @@
   max-width: 960px;
   margin: 0 auto;
   @extend .congress-background;
-  min-height: 106px;
   border-radius: 10px 10px 0 0;
   .footer-list-content{
     font-size: 12px;
@@ -10,6 +9,7 @@
     margin-top: 18px;
     .footer-item{
       margin-right: 30px;
+      word-break: break-all;
       &:last-child{
         margin-right: 0;
       }
@@ -21,8 +21,8 @@
         padding-left: 12px;
         .footer-item-list-box{
           display: inline-block;
-          width: 65px;
-          height: 34px;
+          width: 90px;
+          height: 46px;
           background-color: white;
           border-radius: 4px;
           margin-right: 7px;
@@ -37,6 +37,10 @@
             margin-right: 0;
           }
         }
+      }
+      span{
+        margin-top: 5px;
+        display: block;
       }
     }
   }

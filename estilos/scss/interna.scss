@@ -1,5 +1,6 @@
 .interna-content{
   margin-top: 13px;
+  font-family: "gotham-book",serif;
   .interna-content-body{
     padding: 50px 45px;
     .interna-content-body-title{
@@ -7,6 +8,7 @@
       font-family: gotham-black,serif;
       text-transform: uppercase;
       margin-bottom: 20px;
+      color: rgb(31,158,220);
     }
     .interna-content-body-article{
       &.carta-content{
@@ -17,6 +19,9 @@
         margin-bottom: 20px;
         font-size: 14px;
         line-height: 21px;
+        b{
+          font-family: gotham-black;
+        }
       }
       .signin-bt{
         @extend .congress-background;
@@ -41,11 +46,13 @@
           margin-bottom: 10px;
           font-weight: bold;
           font-size: 15px;
+          font-family: gotham-black;
         }
         .list-subtitle{
           margin-bottom: 15px;
           font-size: 13px;
           line-height: 20px;
+          font-family: "gotham-bold", serif;
           span{
             font-weight: bold;
             font-size: 14px;
@@ -62,5 +69,8 @@
         }
       }
     }
+  }
+  .table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #e0e0e0;
   }
 }
